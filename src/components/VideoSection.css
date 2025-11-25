@@ -1,0 +1,51 @@
+.video-section {
+    padding: 80px 0;
+    background-color: var(--color-light);
+}
+
+.video-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.video-text {
+    flex: 1;
+}
+
+.video-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--color-primary);
+}
+
+.video-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--color-dark);
+    margin-bottom: 15px;
+}
+
+.video-player {
+    flex: 1;
+}
+
+.video-element {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .video-container {
+        flex-direction: column;
+    }
+
+    .video-text h2 {
+        font-size: 2rem;
+    }
+
+    .video-text p {
+        font-size: 1rem;
+    }
+}
