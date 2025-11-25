@@ -53,7 +53,7 @@ const Location = () => {
                             </div>
                             <div className="info-content">
                                 <h3>Téléphone</h3>
-                                <p>055 894 9803</p>
+                                <p>05 58 94 98 03</p>
                             </div>
                         </div>
                     </div>
