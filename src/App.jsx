@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Offers from './components/Offers';
 import Facilities from './components/Facilities';
 import VideoSection from './components/VideoSection';
+import Location from './components/Location';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,9 +17,11 @@ function App() {
       <VideoSection />
       <Offers />
       <Facilities />
+      <Location />
       <Footer />
     </div>
   );
 }
 
 export default App;
+

@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="footer-col">
                     <h3>Contact</h3>
                     <p>📍 Centre Medical Chiad, Aïn Oulmene</p>
-                    <p>📞 055 894 9803</p>
+                    <p>📞 05 58 94 98 03</p>
                 </div>
                 <div className="footer-col">
                     <h3>Suivez-nous</h3>
