@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://body-and-soul.onrender.com/sitemap.xml
