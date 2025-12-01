@@ -29,6 +29,8 @@
     max-width: 400px;
     width: 100%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
 }
 
 .offer-card:hover {
@@ -59,14 +61,22 @@
     position: absolute;
     top: 15px;
     right: 15px;
-    background: linear-gradient(135deg, #c41e3a, #8b0000);
     color: white;
     padding: 8px 16px;
     border-radius: 25px;
     font-size: 0.85rem;
     font-weight: 600;
-    box-shadow: 0 4px 12px rgba(196, 30, 58, 0.4);
     animation: pulse 2s ease-in-out infinite;
+}
+
+.badge-december {
+    background: linear-gradient(135deg, #c41e3a, #8b0000);
+    box-shadow: 0 4px 12px rgba(196, 30, 58, 0.4);
+}
+
+.badge-friends {
+    background: linear-gradient(135deg, #9b59b6, #e91e63);
+    box-shadow: 0 4px 12px rgba(155, 89, 182, 0.4);
 }
 
 @keyframes pulse {
@@ -83,6 +93,9 @@
 
 .offer-content {
     padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .offer-card h3 {
@@ -146,6 +159,7 @@
 .offer-card .btn {
     width: calc(100% - 40px);
     margin: 0 auto;
+    margin-top: auto;
     display: block;
     text-align: center;
     padding: 12px 25px;
