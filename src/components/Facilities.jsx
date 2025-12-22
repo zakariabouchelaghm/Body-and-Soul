@@ -2,12 +2,15 @@ import React, { useState, useEffect } from 'react';
 import './Facilities.css';
 
 const facilityImages = [
-    '/assets/1.jpeg',
-    '/assets/2.jpeg',
+    '/assets/ins1.jpg',
+    '/assets/ins4.jpg',
     '/assets/3.jpeg',
     '/assets/4.jpeg',
     '/assets/5.jpeg',
-    '/assets/6.jpeg'
+    '/assets/6.jpeg',
+    '/assets/ins2.jpg',
+    '/assets/ins3.jpg',
+    '/assets/ins5.jpg',
 ];
 
 const Facilities = () => {
