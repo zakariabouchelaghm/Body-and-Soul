@@ -9,7 +9,7 @@ const offersList = [
         originalPrice: '4000 DA',
         image: '/assets/11.jpeg',
         features: ['Nettoyage profond', 'Masque caviar luxueux', 'Hydratation intense'],
-        badgeType: 'Janvier'
+        badgeType: 'Février'
     },
     {
         title: 'Hydrafacial + LED',
@@ -18,7 +18,7 @@ const offersList = [
         originalPrice: '7000 DA',
         image: '/assets/22.jpeg',
         features: ['Hydrafacial complet', 'Masque LED gratuit', 'Éclat instantané'],
-        badgeType: 'Janvier'
+        badgeType: 'Février'
     },
     {
         title: 'Hydrafacial + Dermapen',
@@ -27,7 +27,7 @@ const offersList = [
         originalPrice: '9000 DA',
         image: '/assets/33.jpeg',
         features: ['Hydrafacial', 'Dermapen', 'Masque LED gratuit'],
-        badgeType: 'Janvier'
+        badgeType: 'Février'
     },
     {
         title: 'Massage Facial + Réflexologie',
@@ -36,7 +36,7 @@ const offersList = [
         originalPrice: '6000 DA',
         image: '/assets/44.jpeg',
         features: ['Massage facial relaxant', 'Réflexologie des mains', 'Détente totale'],
-        badgeType: 'Janvier'
+        badgeType: 'Février'
     },
     {
         title: 'Massage Lymphatique',
@@ -45,7 +45,7 @@ const offersList = [
         originalPrice: '6000 DA',
         image: '/assets/55.jpeg',
         features: ['Drainage lymphatique', 'Détoxification', 'Réduction des gonflements'],
-        badgeType: 'Janvier'
+        badgeType: 'Février'
     },
     {
         title: 'Hot Stone Massage',
@@ -54,7 +54,7 @@ const offersList = [
         originalPrice: '6000 DA',
         image: '/assets/66.jpeg',
         features: ['Pierres chaudes volcaniques', 'Relaxation profonde', 'Soulagement musculaire'],
-        badgeType: 'Janvier'
+        badgeType: 'Février'
     },
     {
         title: 'Haute Fréquence + LED',
@@ -63,7 +63,7 @@ const offersList = [
         originalPrice: '4500 DA',
         image: '/assets/77.jpeg',
         features: ['Traitement haute fréquence', 'Masque LED gratuit', 'Peau purifiée'],
-        badgeType: 'Janvier'
+        badgeType: 'Février'
     },
     {
         title: 'Hydrafacial + Massage Facial',
@@ -97,7 +97,7 @@ const Offers = () => {
                             <div className="offer-image-container">
                                 <img src={offer.image} alt={offer.title} className="offer-image" />
                                 <div className={`offer-badge ${offer.badgeType === 'friends' ? 'badge-friends' : 'badge-december'}`}>
-                                    {offer.badgeType === 'friends' ? 'Un jour pour les amies' : 'Offre Janvier'}
+                                    {offer.badgeType === 'friends' ? 'Un jour pour les amies' : 'Offre Février'}
                                 </div>
                             </div>
                             <div className="offer-content">
