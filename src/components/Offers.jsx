@@ -5,8 +5,8 @@ const offersList = [
     {
         title: 'Nettoyage de Peau Caviar',
         subtitle: 'تنظيف البشرة العادي مع ماسك الكافيار',
-        price: '3000 DA',
-        originalPrice: '4000 DA',
+        price: '3500 DA',
+        originalPrice: '5000 DA',
         image: '/assets/11.jpeg',
         features: ['Nettoyage profond', 'Masque caviar luxueux', 'Hydratation intense'],
         badgeType: 'Février'
@@ -14,7 +14,7 @@ const offersList = [
     {
         title: 'Hydrafacial + LED',
         subtitle: 'الهدرافسيال مع ماسك لاد مجاني',
-        price: '5000 DA',
+        price: '6000 DA',
         originalPrice: '7000 DA',
         image: '/assets/22.jpeg',
         features: ['Hydrafacial complet', 'Masque LED gratuit', 'Éclat instantané'],
@@ -23,8 +23,8 @@ const offersList = [
     {
         title: 'Hydrafacial + Dermapen',
         subtitle: 'الهدرافسيال مع الديرمابن و ماسك لاد',
-        price: '6000 DA',
-        originalPrice: '9000 DA',
+        price: '7000 DA',
+        originalPrice: '10000 DA',
         image: '/assets/33.jpeg',
         features: ['Hydrafacial', 'Dermapen', 'Masque LED gratuit'],
         badgeType: 'Février'
@@ -59,8 +59,8 @@ const offersList = [
     {
         title: 'Haute Fréquence + LED',
         subtitle: 'الهايفريكونس مع ماسك لاد مجاني',
-        price: '3000 DA',
-        originalPrice: '4500 DA',
+        price: '4000 DA',
+        originalPrice: '5000 DA',
         image: '/assets/77.jpeg',
         features: ['Traitement haute fréquence', 'Masque LED gratuit', 'Peau purifiée'],
         badgeType: 'Février'
