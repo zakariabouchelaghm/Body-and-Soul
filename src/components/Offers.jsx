@@ -97,7 +97,7 @@ const Offers = () => {
                             <div className="offer-image-container">
                                 <img src={offer.image} alt={offer.title} className="offer-image" />
                                 <div className={`offer-badge ${offer.badgeType === 'friends' ? 'badge-friends' : 'badge-december'}`}>
-                                    {offer.badgeType === 'friends' ? 'Un jour pour les amies' : 'Offre April'}
+                                    {offer.badgeType === 'friends' ? 'Un jour pour les amies' : 'Offre Avril'}
                                 </div>
                             </div>
                             <div className="offer-content">
