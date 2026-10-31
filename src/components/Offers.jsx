@@ -5,7 +5,7 @@ const offersList = [
     {
         title: 'Nettoyage de Peau Caviar',
         subtitle: 'تنظيف البشرة العادي مع ماسك الكافيار',
-        price: '3500 DA',
+        price: '3000 DA',
         originalPrice: '5000 DA',
         image: '/assets/11.jpeg',
         features: ['Nettoyage profond', 'Masque caviar luxueux', 'Hydratation intense'],
@@ -23,7 +23,7 @@ const offersList = [
     {
         title: 'Hydrafacial + Dermapen',
         subtitle: 'الهدرافسيال مع الديرمابن و ماسك لاد',
-        price: '7000 DA',
+        price: '5000 DA',
         originalPrice: '10000 DA',
         image: '/assets/33.jpeg',
         features: ['Hydrafacial', 'Dermapen', 'Masque LED gratuit'],
@@ -32,7 +32,7 @@ const offersList = [
     {
         title: 'Massage Facial + Réflexologie',
         subtitle: 'مساج الوجه مع رفلكسولوجي اليدين',
-        price: '4000 DA',
+        price: '2000 DA',
         originalPrice: '6000 DA',
         image: '/assets/44.jpeg',
         features: ['Massage facial relaxant', 'Réflexologie des mains', 'Détente totale'],
@@ -41,7 +41,7 @@ const offersList = [
     {
         title: 'Massage Lymphatique',
         subtitle: 'مساج لمفاوي',
-        price: '4000 DA',
+        price: '3000 DA',
         originalPrice: '6000 DA',
         image: '/assets/55.jpeg',
         features: ['Drainage lymphatique', 'Détoxification', 'Réduction des gonflements'],
@@ -50,7 +50,7 @@ const offersList = [
     {
         title: 'Hot Stone Massage',
         subtitle: 'مساج استرخائي بالحجارة الساخنة',
-        price: '4000 DA',
+        price: '3000 DA',
         originalPrice: '6000 DA',
         image: '/assets/66.jpeg',
         features: ['Pierres chaudes volcaniques', 'Relaxation profonde', 'Soulagement musculaire'],
@@ -59,7 +59,7 @@ const offersList = [
     {
         title: 'Haute Fréquence + LED',
         subtitle: 'الهايفريكونس مع ماسك لاد مجاني',
-        price: '4000 DA',
+        price: '3000 DA',
         originalPrice: '5000 DA',
         image: '/assets/77.jpeg',
         features: ['Traitement haute fréquence', 'Masque LED gratuit', 'Peau purifiée'],
@@ -68,7 +68,7 @@ const offersList = [
     {
         title: 'Hydrafacial + Massage Facial',
         subtitle: 'هيدرافيشل مع مساج الوجه',
-        price: '5000 DA',
+        price: '4000 DA',
         originalPrice: '9000 DA',
         image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80',
         features: ['Pour 2 personnes', 'Hydrafacial complet', 'Massage facial relaxant', 'Moment entre amies'],
@@ -77,7 +77,7 @@ const offersList = [
     {
         title: 'Hydrafacial + Massage Relaxant',
         subtitle: 'هيدرافيشل مع مساج استرخائي',
-        price: '5000 DA',
+        price: '4000 DA',
         originalPrice: '10000 DA',
         image: 'https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80',
         features: ['Pour 2 personnes', 'Hydrafacial complet', 'Massage relaxant', 'Détente totale'],
